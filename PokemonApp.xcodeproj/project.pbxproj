@@ -7,23 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		394D789929CC34C0007F0A27 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 394D789829CC34C0007F0A27 /* Kingfisher */; };
 		39A0BAA829CA43030044A9AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A0BAA729CA43030044A9AA /* AppDelegate.swift */; };
 		39A0BAAA29CA43030044A9AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A0BAA929CA43030044A9AA /* SceneDelegate.swift */; };
-		39A0BAAC29CA43030044A9AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A0BAAB29CA43030044A9AA /* ViewController.swift */; };
+		39A0BAAC29CA43030044A9AA /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A0BAAB29CA43030044A9AA /* MainVC.swift */; };
 		39A0BAAF29CA43030044A9AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A0BAAD29CA43030044A9AA /* Main.storyboard */; };
 		39A0BAB129CA43040044A9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A0BAB029CA43040044A9AA /* Assets.xcassets */; };
 		39A0BAB429CA43040044A9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A0BAB229CA43040044A9AA /* LaunchScreen.storyboard */; };
+		39A0BABC29CA44330044A9AA /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A0BABB29CA44330044A9AA /* DetailVC.swift */; };
+		39A0BABF29CAD39C0044A9AA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A0BABE29CAD39C0044A9AA /* NetworkManager.swift */; };
+		39A0BAC129CAD3B50044A9AA /* APIURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A0BAC029CAD3B50044A9AA /* APIURLs.swift */; };
+		39A0BAC429CAD48D0044A9AA /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A0BAC329CAD48D0044A9AA /* UITableView+Ext.swift */; };
+		39A0BACA29CAD9460044A9AA /* PokemonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A0BAC929CAD9460044A9AA /* PokemonService.swift */; };
+		39A0BAD629CADBD90044A9AA /* PokemonResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A0BAD529CADBD90044A9AA /* PokemonResponseModel.swift */; };
+		39A0BAD829CADC410044A9AA /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A0BAD729CADC410044A9AA /* MainViewModel.swift */; };
+		39A0BADA29CADC720044A9AA /* PokemonDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A0BAD929CADC720044A9AA /* PokemonDetailModel.swift */; };
+		39A0BADF29CAF13D0044A9AA /* PokemonListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A0BADD29CAF13D0044A9AA /* PokemonListTableViewCell.swift */; };
+		39A0BAE029CAF13D0044A9AA /* PokemonListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39A0BADE29CAF13D0044A9AA /* PokemonListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		39A0BAA429CA43030044A9AA /* PokemonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A0BAA729CA43030044A9AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39A0BAA929CA43030044A9AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		39A0BAAB29CA43030044A9AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39A0BAAB29CA43030044A9AA /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		39A0BAAE29CA43030044A9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39A0BAB029CA43040044A9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39A0BAB329CA43040044A9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39A0BAB529CA43040044A9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39A0BABB29CA44330044A9AA /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		39A0BABE29CAD39C0044A9AA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		39A0BAC029CAD3B50044A9AA /* APIURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIURLs.swift; sourceTree = "<group>"; };
+		39A0BAC329CAD48D0044A9AA /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		39A0BAC929CAD9460044A9AA /* PokemonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonService.swift; sourceTree = "<group>"; };
+		39A0BAD529CADBD90044A9AA /* PokemonResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonResponseModel.swift; sourceTree = "<group>"; };
+		39A0BAD729CADC410044A9AA /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		39A0BAD929CADC720044A9AA /* PokemonDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailModel.swift; sourceTree = "<group>"; };
+		39A0BADD29CAF13D0044A9AA /* PokemonListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListTableViewCell.swift; sourceTree = "<group>"; };
+		39A0BADE29CAF13D0044A9AA /* PokemonListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				394D789929CC34C0007F0A27 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +78,113 @@
 		39A0BAA629CA43030044A9AA /* PokemonApp */ = {
 			isa = PBXGroup;
 			children = (
+				39A0BAC829CAD9210044A9AA /* PokemonService */,
+				39A0BAC229CAD41D0044A9AA /* Extensions */,
+				39A0BABD29CAD3550044A9AA /* Utillities */,
 				39A0BAA729CA43030044A9AA /* AppDelegate.swift */,
 				39A0BAA929CA43030044A9AA /* SceneDelegate.swift */,
-				39A0BAAB29CA43030044A9AA /* ViewController.swift */,
+				39A0BACB29CAD9720044A9AA /* Scene */,
 				39A0BAAD29CA43030044A9AA /* Main.storyboard */,
 				39A0BAB029CA43040044A9AA /* Assets.xcassets */,
 				39A0BAB229CA43040044A9AA /* LaunchScreen.storyboard */,
 				39A0BAB529CA43040044A9AA /* Info.plist */,
+				39A0BADD29CAF13D0044A9AA /* PokemonListTableViewCell.swift */,
+				39A0BADE29CAF13D0044A9AA /* PokemonListTableViewCell.xib */,
 			);
 			path = PokemonApp;
+			sourceTree = "<group>";
+		};
+		39A0BABD29CAD3550044A9AA /* Utillities */ = {
+			isa = PBXGroup;
+			children = (
+				39A0BABE29CAD39C0044A9AA /* NetworkManager.swift */,
+				39A0BAC029CAD3B50044A9AA /* APIURLs.swift */,
+			);
+			path = Utillities;
+			sourceTree = "<group>";
+		};
+		39A0BAC229CAD41D0044A9AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				39A0BAC329CAD48D0044A9AA /* UITableView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		39A0BAC829CAD9210044A9AA /* PokemonService */ = {
+			isa = PBXGroup;
+			children = (
+				39A0BAC929CAD9460044A9AA /* PokemonService.swift */,
+			);
+			path = PokemonService;
+			sourceTree = "<group>";
+		};
+		39A0BACB29CAD9720044A9AA /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				39A0BACC29CADA060044A9AA /* Main */,
+				39A0BACD29CADA100044A9AA /* Detail */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		39A0BACC29CADA060044A9AA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				39A0BACF29CADA580044A9AA /* Model */,
+				39A0BAD129CADABF0044A9AA /* ViewModel */,
+				39A0BACE29CADA410044A9AA /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		39A0BACD29CADA100044A9AA /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				39A0BAD229CADB190044A9AA /* Model */,
+				39A0BAD429CADB400044A9AA /* Controller */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		39A0BACE29CADA410044A9AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				39A0BAAB29CA43030044A9AA /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		39A0BACF29CADA580044A9AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39A0BAD529CADBD90044A9AA /* PokemonResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		39A0BAD129CADABF0044A9AA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				39A0BAD729CADC410044A9AA /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		39A0BAD229CADB190044A9AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39A0BAD929CADC720044A9AA /* PokemonDetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		39A0BAD429CADB400044A9AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				39A0BABB29CA44330044A9AA /* DetailVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +203,9 @@
 			dependencies = (
 			);
 			name = PokemonApp;
+			packageProductDependencies = (
+				394D789829CC34C0007F0A27 /* Kingfisher */,
+			);
 			productName = PokemonApp;
 			productReference = 39A0BAA429CA43030044A9AA /* PokemonApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +234,9 @@
 				Base,
 			);
 			mainGroup = 39A0BA9B29CA43030044A9AA;
+			packageReferences = (
+				394D789729CC34C0007F0A27 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 39A0BAA529CA43030044A9AA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39A0BAB429CA43040044A9AA /* LaunchScreen.storyboard in Resources */,
+				39A0BAE029CAF13D0044A9AA /* PokemonListTableViewCell.xib in Resources */,
 				39A0BAB129CA43040044A9AA /* Assets.xcassets in Resources */,
 				39A0BAAF29CA43030044A9AA /* Main.storyboard in Resources */,
 			);
@@ -138,9 +265,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39A0BAAC29CA43030044A9AA /* ViewController.swift in Sources */,
+				39A0BAAC29CA43030044A9AA /* MainVC.swift in Sources */,
+				39A0BADA29CADC720044A9AA /* PokemonDetailModel.swift in Sources */,
+				39A0BACA29CAD9460044A9AA /* PokemonService.swift in Sources */,
 				39A0BAA829CA43030044A9AA /* AppDelegate.swift in Sources */,
+				39A0BABF29CAD39C0044A9AA /* NetworkManager.swift in Sources */,
 				39A0BAAA29CA43030044A9AA /* SceneDelegate.swift in Sources */,
+				39A0BAD829CADC410044A9AA /* MainViewModel.swift in Sources */,
+				39A0BADF29CAF13D0044A9AA /* PokemonListTableViewCell.swift in Sources */,
+				39A0BAD629CADBD90044A9AA /* PokemonResponseModel.swift in Sources */,
+				39A0BAC429CAD48D0044A9AA /* UITableView+Ext.swift in Sources */,
+				39A0BAC129CAD3B50044A9AA /* APIURLs.swift in Sources */,
+				39A0BABC29CA44330044A9AA /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +492,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		394D789729CC34C0007F0A27 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		394D789829CC34C0007F0A27 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 394D789729CC34C0007F0A27 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 39A0BA9C29CA43030044A9AA /* Project object */;
 }
